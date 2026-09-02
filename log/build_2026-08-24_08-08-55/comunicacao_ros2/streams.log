@@ -1,0 +1,40 @@
+[1.405s] Invoking command in '/home/eduardo/tp1_ws/src/comunicacao_ros2': PYTHONPATH=/home/eduardo/tp1_ws/build/comunicacao_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eduardo/tp1_ws/install/comunicacao_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/comunicacao_ros2 build --build-base /home/eduardo/tp1_ws/build/comunicacao_ros2/build install --record /home/eduardo/tp1_ws/build/comunicacao_ros2/install.log --install-scripts $base/lib/comunicacao_ros2 --single-version-externally-managed install_data
+[1.815s] running egg_info
+[1.821s] writing ../../build/comunicacao_ros2/comunicacao_ros2.egg-info/PKG-INFO
+[1.826s] writing dependency_links to ../../build/comunicacao_ros2/comunicacao_ros2.egg-info/dependency_links.txt
+[1.832s] writing entry points to ../../build/comunicacao_ros2/comunicacao_ros2.egg-info/entry_points.txt
+[1.832s] writing requirements to ../../build/comunicacao_ros2/comunicacao_ros2.egg-info/requires.txt
+[1.832s] writing top-level names to ../../build/comunicacao_ros2/comunicacao_ros2.egg-info/top_level.txt
+[1.839s] reading manifest file '../../build/comunicacao_ros2/comunicacao_ros2.egg-info/SOURCES.txt'
+[1.841s] writing manifest file '../../build/comunicacao_ros2/comunicacao_ros2.egg-info/SOURCES.txt'
+[1.842s] running build
+[1.842s] running build_py
+[1.842s] copying comunicacao_ros2/patrulha_client.py -> /home/eduardo/tp1_ws/build/comunicacao_ros2/build/lib/comunicacao_ros2
+[1.844s] copying comunicacao_ros2/patrulha_server.py -> /home/eduardo/tp1_ws/build/comunicacao_ros2/build/lib/comunicacao_ros2
+[1.844s] running install
+[1.844s] running install_lib
+[1.844s] copying /home/eduardo/tp1_ws/build/comunicacao_ros2/build/lib/comunicacao_ros2/patrulha_client.py -> /home/eduardo/tp1_ws/install/comunicacao_ros2/lib/python3.10/site-packages/comunicacao_ros2
+[1.860s] copying /home/eduardo/tp1_ws/build/comunicacao_ros2/build/lib/comunicacao_ros2/patrulha_server.py -> /home/eduardo/tp1_ws/install/comunicacao_ros2/lib/python3.10/site-packages/comunicacao_ros2
+[1.870s] byte-compiling /home/eduardo/tp1_ws/install/comunicacao_ros2/lib/python3.10/site-packages/comunicacao_ros2/patrulha_client.py to patrulha_client.cpython-310.pyc
+[1.870s] byte-compiling /home/eduardo/tp1_ws/install/comunicacao_ros2/lib/python3.10/site-packages/comunicacao_ros2/estado_robo.py to estado_robo.cpython-310.pyc
+[1.870s]   File "/home/eduardo/tp1_ws/install/comunicacao_ros2/lib/python3.10/site-packages/comunicacao_ros2/estado_robo.py", line 16
+[1.871s]     self.
+[1.871s]          ^
+[1.871s] SyntaxError: invalid syntax
+[1.871s] 
+[1.872s] byte-compiling /home/eduardo/tp1_ws/install/comunicacao_ros2/lib/python3.10/site-packages/comunicacao_ros2/patrulha_server.py to patrulha_server.cpython-310.pyc
+[1.872s] running install_data
+[1.876s] running install_egg_info
+[1.876s] removing '/home/eduardo/tp1_ws/install/comunicacao_ros2/lib/python3.10/site-packages/comunicacao_ros2-0.0.0-py3.10.egg-info' (and everything under it)
+[1.877s] Copying ../../build/comunicacao_ros2/comunicacao_ros2.egg-info to /home/eduardo/tp1_ws/install/comunicacao_ros2/lib/python3.10/site-packages/comunicacao_ros2-0.0.0-py3.10.egg-info
+[1.877s] running install_scripts
+[1.912s] Installing controlador script to /home/eduardo/tp1_ws/install/comunicacao_ros2/lib/comunicacao_ros2
+[1.915s] Installing estado_robo script to /home/eduardo/tp1_ws/install/comunicacao_ros2/lib/comunicacao_ros2
+[1.915s] Installing modo_client script to /home/eduardo/tp1_ws/install/comunicacao_ros2/lib/comunicacao_ros2
+[1.916s] Installing modo_server script to /home/eduardo/tp1_ws/install/comunicacao_ros2/lib/comunicacao_ros2
+[1.918s] Installing monitor_velocidade script to /home/eduardo/tp1_ws/install/comunicacao_ros2/lib/comunicacao_ros2
+[1.919s] Installing patrulha_client script to /home/eduardo/tp1_ws/install/comunicacao_ros2/lib/comunicacao_ros2
+[1.920s] Installing patrulha_server script to /home/eduardo/tp1_ws/install/comunicacao_ros2/lib/comunicacao_ros2
+[1.921s] Installing velocidade_pub script to /home/eduardo/tp1_ws/install/comunicacao_ros2/lib/comunicacao_ros2
+[1.923s] writing list of installed files to '/home/eduardo/tp1_ws/build/comunicacao_ros2/install.log'
+[1.964s] Invoked command in '/home/eduardo/tp1_ws/src/comunicacao_ros2' returned '0': PYTHONPATH=/home/eduardo/tp1_ws/build/comunicacao_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eduardo/tp1_ws/install/comunicacao_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/comunicacao_ros2 build --build-base /home/eduardo/tp1_ws/build/comunicacao_ros2/build install --record /home/eduardo/tp1_ws/build/comunicacao_ros2/install.log --install-scripts $base/lib/comunicacao_ros2 --single-version-externally-managed install_data

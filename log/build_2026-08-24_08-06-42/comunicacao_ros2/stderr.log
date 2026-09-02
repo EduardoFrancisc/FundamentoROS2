@@ -1,0 +1,6 @@
+  File "/home/eduardo/tp1_ws/install/comunicacao_ros2/lib/python3.10/site-packages/comunicacao_ros2/estado_robo.py", line 16
+    self.
+         ^
+SyntaxError: invalid syntax
+
+Sorry: IndentationError: unexpected indent (patrulha_server.py, line 19)

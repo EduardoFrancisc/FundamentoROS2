@@ -1,0 +1,12 @@
+[console_scripts]
+controlador = comunicacao_ros2.controlador:main
+coordenador_vigilancia = comunicacao_ros2.coordenador_vigilancia:main
+estado_robo = comunicacao_ros2.estado_robo:main
+modo_client = comunicacao_ros2.modo_client:main
+modo_server = comunicacao_ros2.modo_server:main
+monitor_transporte = comunicacao_ros2.monitor_transporte:main
+monitor_velocidade = comunicacao_ros2.monitor_velocidade:main
+patrulha_client = comunicacao_ros2.patrulha_client:main
+patrulha_server = comunicacao_ros2.patrulha_server:main
+velocidade_pub = comunicacao_ros2.velocidade_pub:main
+
