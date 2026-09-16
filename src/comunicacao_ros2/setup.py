@@ -1,4 +1,7 @@
+import os
 from setuptools import find_packages, setup
+from glob import glob
+from setuptools import setup
 
 package_name = 'comunicacao_ros2'
 
@@ -10,6 +13,10 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share', package_name, 'launch'),
+            glob(os.path.join('launch', '*_launch.py'))),
+       (os.path.join('share', package_name, 'urdf'),
+            glob(os.path.join('urdf', '*.urdf'))),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -45,5 +52,5 @@ setup(
             'monitor_transporte = '
             'comunicacao_ros2.monitor_transporte:main' ,
         ],
-    },
+    }
 )

@@ -22,6 +22,9 @@
 /home/eduardo/tp1_ws/install/comunicacao_ros2/lib/python3.10/site-packages/comunicacao_ros2/__pycache__/controlador.cpython-310.pyc
 /home/eduardo/tp1_ws/install/comunicacao_ros2/share/ament_index/resource_index/packages/comunicacao_ros2
 /home/eduardo/tp1_ws/install/comunicacao_ros2/share/comunicacao_ros2/package.xml
+/home/eduardo/tp1_ws/install/comunicacao_ros2/share/comunicacao_ros2/launch/robo_hospitalar_launch.py
+/home/eduardo/tp1_ws/install/comunicacao_ros2/share/comunicacao_ros2/launch/hospital_gazebo_launch.py
+/home/eduardo/tp1_ws/install/comunicacao_ros2/share/comunicacao_ros2/urdf/robo_hospitalar.urdf
 /home/eduardo/tp1_ws/install/comunicacao_ros2/lib/python3.10/site-packages/comunicacao_ros2-0.0.0-py3.10.egg-info/dependency_links.txt
 /home/eduardo/tp1_ws/install/comunicacao_ros2/lib/python3.10/site-packages/comunicacao_ros2-0.0.0-py3.10.egg-info/requires.txt
 /home/eduardo/tp1_ws/install/comunicacao_ros2/lib/python3.10/site-packages/comunicacao_ros2-0.0.0-py3.10.egg-info/entry_points.txt

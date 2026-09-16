@@ -19,7 +19,10 @@ comunicacao_ros2/monitor_velocidade.py
 comunicacao_ros2/patrulha_client.py
 comunicacao_ros2/patrulha_server.py
 comunicacao_ros2/velocidade_pub.py
+launch/hospital_gazebo_launch.py
+launch/robo_hospitalar_launch.py
 resource/comunicacao_ros2
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
+urdf/robo_hospitalar.urdf
